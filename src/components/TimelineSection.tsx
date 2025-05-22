@@ -22,12 +22,6 @@ const timelineData = [
       "Submission of the project topic for review and initial feedback.",
   },
   {
-    date: "May 2024",
-    title: "Project Charter",
-    description:
-      "Formal document outlining scope, objectives, and stakeholders of the project.",
-  },
-  {
     date: "Aug 2024",
     title: "Proposal Report (Draft)",
     description:

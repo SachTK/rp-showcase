@@ -7,6 +7,8 @@ import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import PresentationDownloadSection from "@/components/DownloadSection2";
+import ContactUsSection from "@/components/ContactUsSection";
 
 const Index = () => {
   return (
@@ -450,7 +452,7 @@ const Index = () => {
         content={
           <div className="space-y-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              <Card className="bg-research-darkBlue text-white hover:shadow-lg transition-shadow">
+              <Card className="bg-research-green text-white hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-3">Primary Objective</h3>
                   <p className="text-gray-200">
@@ -980,8 +982,11 @@ const Index = () => {
       <TimelineSection />
 
       <DownloadSection />
+      <PresentationDownloadSection />
 
       <AboutSection />
+
+      <ContactUsSection />
 
       <Footer />
     </div>

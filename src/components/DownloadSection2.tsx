@@ -11,44 +11,42 @@ import { toast } from "sonner";
 
 const documents = [
   {
-    title: "Topic Assessment",
-    type: "PDF",
+    title: "Project Proposal",
+    type: "PPTX",
     date: "Apr 15, 2024",
-    link: "https://drive.google.com/file/d/1nqyoGVEEeZmlQZt7xOkfY2VnlPbOF1Iw/view?usp=drive_link",
+    link: "https://docs.google.com/presentation/d/1nRSubPk_CAtbKzR_EIcuM7U8sZSH1R0w/edit?usp=drive_link&ouid=104171797698287476585&rtpof=true&sd=true",
   },
   {
-    title: "Project Proposal",
-    type: "PDF",
+    title: "Progress Presentation I",
+    type: "PPTX",
     date: "Mar 22, 2024",
     link: "https://drive.google.com/drive/folders/1h5Vk7qa2_wbRDkBpdlQtodSd0eBtp-YN",
   },
   {
-    title: "Research Paper",
-    type: "PDF",
+    title: "Progress Presentation II",
+    type: "PPTX",
     date: "Feb 10, 2024",
     link: "https://drive.google.com/drive/folders/1JgCJPV7fzJybQB_p4irnVm5L3WzEg5fS",
   },
   {
-    title: "Final Report",
-    type: "PDF",
+    title: "Final Presentation",
+    type: "PPTX",
     date: "Apr 02, 2024",
     link: "https://drive.google.com/drive/folders/1eDlx9k_5mppAJlHnkad553TY2NrQvR02",
-    individualLink:
-      "https://drive.google.com/drive/folders/1DN7noIc52PwuK0jOkpp11icHpf-q73g5",
   },
 ];
 
-const DownloadSection = () => {
+const PresentationDownloadSection = () => {
 
   return (
-    <section id="downloads" className="py-16">
+    <section id="downloads" className="">
       <div className="section-container">
         <div className="flex items-center gap-3 mb-2">
           <Download size={28} className="text-research-green" />
-          <h2 className="section-title"> Documents</h2>
+          <h2 className="section-title"> Presentations</h2>
         </div>
         <p className="section-subtitle">
-          Please find all documents related to this project below.
+         Please find all presentations related this project below.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
@@ -81,14 +79,7 @@ const DownloadSection = () => {
                       Download
                     </a>
                   </div>
-                  {doc.individualLink && (
-                    <div className="flex flex-row justify-between w-full ">
-                      Individual
-                      <a href={doc.individualLink} target="_blank" className="hover:text-research-blue text-research-green hover:underline">
-                        Download
-                      </a>
-                    </div>
-                  )}
+              
                 </div>
               </CardFooter>
             </Card>
@@ -99,4 +90,4 @@ const DownloadSection = () => {
   );
 };
 
-export default DownloadSection;
+export default PresentationDownloadSection;
