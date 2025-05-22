@@ -1,4 +1,3 @@
-
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import ResearchSection from '@/components/ResearchSection';
@@ -58,7 +57,7 @@ const Index = () => {
         id="problems"
         title="Research Problems"
         subtitle="Key challenges we're addressing"
-        icon="bulb"
+        icon="lightbulb"
         className="bg-gray-50"
         content={
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -312,7 +311,7 @@ const Index = () => {
         id="tools"
         title="Research Tools"
         subtitle="Technologies and frameworks powering our research"
-        icon="tool"
+        icon="wrench"
         className="bg-gray-50"
         content={
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

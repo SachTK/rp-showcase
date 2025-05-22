@@ -1,23 +1,22 @@
-
 import React from 'react';
-import { BookOpen, Bulb, Search, Target, Settings, Tool } from 'lucide-react';
+import { BookOpen, Lightbulb, Search, Target, Settings, Wrench } from 'lucide-react';
 
 interface ResearchSectionProps {
   id: string;
   title: string;
   subtitle: string;
   content: React.ReactNode;
-  icon?: 'book-open' | 'bulb' | 'search' | 'target' | 'settings' | 'tool';
+  icon?: 'book-open' | 'lightbulb' | 'search' | 'target' | 'settings' | 'wrench';
   className?: string;
 }
 
 const iconComponents = {
   'book-open': BookOpen,
-  'bulb': Bulb,
+  'lightbulb': Lightbulb,
   'search': Search,
   'target': Target,
   'settings': Settings,
-  'tool': Tool
+  'wrench': Wrench
 };
 
 const ResearchSection: React.FC<ResearchSectionProps> = ({ 
