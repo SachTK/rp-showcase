@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { id: "hero", label: "Home" },
@@ -45,7 +46,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="font-bold text-xl flex items-center">
           <img
-            src="src\assets\logo.png"
+            src={logo}
             alt="AgriSync Logo"
             className="h-[70px] w-[70px] mb-[10px]"
           />

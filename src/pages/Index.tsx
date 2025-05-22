@@ -9,6 +9,18 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import PresentationDownloadSection from "@/components/DownloadSection2";
 import ContactUsSection from "@/components/ContactUsSection";
+import SystemDiagram from "@/assets/system-overview.jpg";
+import python from "@/assets/python.png";
+import node from "@/assets/node.jpeg";
+import langchain from "@/assets/langchain.jpeg";
+import clickup from "@/assets/clickup.jpeg";
+import tensorflow from "@/assets/tensorflow.png";
+import googlemap from "@/assets/googlemap.png";
+import postgres from "@/assets/postgres.png";
+import argo from "@/assets/argo.png";
+import docker from "@/assets/doker.png";
+import blockchain from "@/assets/blockchain.png";
+
 
 const Index = () => {
   return (
@@ -546,7 +558,7 @@ const Index = () => {
             <div className=" flex space-x-5 pb-[50px]">
               <div className="w-1/2 space-y-3">
                 <img
-                  src="src\assets\system-overview.jpg"
+                  src={SystemDiagram}
                   alt="system diagram"
                   className="h6"
                 />
@@ -744,7 +756,7 @@ const Index = () => {
               <CardContent className="p-4 flex flex-col items-center justify-center">
                 <div className="mb-2">
                   <img
-                    src="src/assets/python.png"
+                    src={python}
                     alt="Python"
                     className="h-12 w-12"
                   />
@@ -774,7 +786,7 @@ const Index = () => {
               <CardContent className="p-4 flex flex-col items-center justify-center">
                 <div className="mb-4 flex justify-center">
                   <img
-                    src="src\assets\node.jpeg"
+                    src={node}
                     alt="Node.js"
                     className="h-16"
                   />
@@ -804,7 +816,7 @@ const Index = () => {
               <CardContent className="p-4 flex flex-col items-center justify-center">
                 <div className="mb-4 flex justify-center">
                   <img
-                    src="src\assets\langchain.jpeg"
+                    src={langchain}
                     alt="LangChain"
                     className="h-16"
                   />
@@ -878,7 +890,7 @@ const Index = () => {
               <CardContent className="p-4 flex flex-col items-center justify-center">
                 <div className="mb-4 flex justify-center">
                   <img
-                    src="src\assets\clickup.jpeg"
+                    src={clickup}
                     alt="ClickUp"
                     className="h-16"
                   />
@@ -892,7 +904,7 @@ const Index = () => {
               <CardContent className="p-4 flex flex-col items-center justify-center">
                 <div className="mb-4 flex justify-center">
                   <img
-                    src="src\assets\tensorflow.png"
+                    src={tensorflow}
                     alt="ClickUp"
                     className="h-16"
                   />
@@ -908,7 +920,7 @@ const Index = () => {
               <CardContent className="p-4 flex flex-col items-center justify-center">
                 <div className="mb-4 flex justify-center">
                   <img
-                    src="src\assets\googlemap.png"
+                    src={googlemap}
                     alt="ClickUp"
                     className="h-16"
                   />
@@ -924,7 +936,7 @@ const Index = () => {
               <CardContent className="p-4 flex flex-col items-center justify-center">
                 <div className="mb-4 flex justify-center">
                   <img
-                    src="src\assets\postgres.png"
+                    src={postgres}
                     alt="ClickUp"
                     className="h-16"
                   />
@@ -940,7 +952,7 @@ const Index = () => {
               <CardContent className="p-4 flex flex-col items-center justify-center">
                 <div className="mb-4 flex justify-center">
                   <img
-                    src="src\assets\argo.png"
+                    src={argo}
                     alt="ClickUp"
                     className="h-16"
                   />
@@ -952,7 +964,7 @@ const Index = () => {
               <CardContent className="p-4 flex flex-col items-center justify-center">
                 <div className="mb-4 flex justify-center">
                   <img
-                    src="src\assets\doker.png"
+                    src={docker}
                     alt="ClickUp"
                     className="h-16"
                   />
@@ -965,7 +977,7 @@ const Index = () => {
               <CardContent className="p-4 flex flex-col items-center justify-center">
                 <div className="mb-4 flex justify-center">
                   <img
-                    src="src\assets\blockchain.png"
+                    src={blockchain}
                     alt="ClickUp"
                     className="h-16"
                   />

@@ -1,5 +1,6 @@
 
 import React from 'react';
+import logo from "@/assets/logo.png";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -9,7 +10,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <img src="src\assets\logo.png" alt="AgriSync Logo" className="h-[70px] w-[70px] mb-[10px]" />
+            <img src={logo} alt="AgriSync Logo" className="h-[70px] w-[70px] mb-[10px]" />
             <p className="text-gray-300">
               Advancing agricultural economics through machine learning innovation.
             </p>
