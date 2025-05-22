@@ -51,9 +51,9 @@ const DownloadSection = () => {
       <div className="section-container">
         <div className="flex items-center gap-3 mb-2">
           <Download size={28} className="text-research-green" />
-          <h2 className="section-title">Downloadable Documents</h2>
+          <h2 className="section-title"> Documents</h2>
         </div>
-        <p className="section-subtitle">Access our research materials and resources</p>
+        <p className="section-subtitle">Please find all documents related to this project below.</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
           {documents.map((doc, index) => (

@@ -30,7 +30,7 @@ const ResearchSection: React.FC<ResearchSectionProps> = ({
   const IconComponent = icon ? iconComponents[icon] : null;
 
   return (
-    <section id={id} className={`py-16 ${className}`}>
+    <section id={id} className={` ${className}`}>
       <div className="section-container">
         <div className="flex items-center gap-3 mb-2">
           {IconComponent && (
